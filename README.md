@@ -88,10 +88,7 @@ This project focuses on segmenting customers using SQL for data cleaning and Tab
 ### Family Size vs. Spending:
 - **Scatter Plots**: Illustrate the relationship between family size and spending behavior.
 
-### Example Screenshot:
-![Tableau Dashboard](path/to/dashboard-image.png)
 
----
 
 ## Features
 
