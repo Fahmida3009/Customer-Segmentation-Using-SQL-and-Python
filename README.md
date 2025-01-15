@@ -26,7 +26,7 @@ Customer segmentation is a key technique in understanding different customer gro
 ## Key Insights
 
 - Customers with a high spending score tend to have smaller family sizes.
-- Work experience and marital status significantly influence spending behavior.
+- Work experience and profession significantly influence spending behavior.
 
 ---
 
