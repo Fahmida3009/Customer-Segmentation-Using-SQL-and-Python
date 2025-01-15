@@ -2,6 +2,7 @@
 
 
 This project focuses on segmenting customers based on various attributes to derive actionable insights. SQL was used for data cleaning and preprocessing, while Tableau was utilized for creating interactive visualizations to explore customer segments effectively.
+[Explore the Tableau Dashboard](https://public.tableau.com/app/profile/fahmida.toma/vizzes)
 
 ---
 
