@@ -14,9 +14,6 @@ This project focuses on segmenting customers based on various attributes to deri
 - [Visualizations](#visualizations)
 - [Features](#features)
 - [Installation and Usage](#installation-and-usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ---
 
