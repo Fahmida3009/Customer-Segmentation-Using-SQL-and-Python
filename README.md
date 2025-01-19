@@ -55,21 +55,15 @@ The dataset includes the following attributes:
   
    
 
-
-
-# Customer Segmentation Project
-
-This project focuses on segmenting customers using SQL for data cleaning and Tableau for visualization. The goal is to derive actionable insights and better understand customer behaviors through interactive dashboards and data analysis.
-
 ---
 
-## Data Visualization with Tableau
+2. **Data Visualization with Tableau**:
 
-1. **Dataset Preparation**:
+  **Dataset Preparation**:
    - Imported the cleaned dataset into Tableau.
    - Designed interactive dashboards with filters for customer attributes like gender, age, and spending segment.
 
-2. **Dashboards and Visualizations**:
+  **Dashboards and Visualizations**:
    - Visualized trends, distributions, and correlations among customer groups.
 
 ---
@@ -82,9 +76,6 @@ This project focuses on segmenting customers using SQL for data cleaning and Tab
 
 ### Demographic Segmentation:
 - **Pie Charts**: Show proportions of customers by gender.
-
-### Family Size vs. Spending:
-- **Scatter Plots**: Illustrate the relationship between family size and spending behavior.
 
 
 
