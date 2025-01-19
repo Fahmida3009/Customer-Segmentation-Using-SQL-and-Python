@@ -2,21 +2,21 @@
 --Counting rows
 
 SELECT COUNT(*) 
-FROM `my-customer-segmentation.0001.Customer Details` ;
+FROM `Customer Details` ;
 
 
 
 --FINDING DUPLICATES
 
 SELECT ID, Gender, Ever_Married, Age, Graduated, Profession, Work_Experience, Spending_Score, Family_Size, Var_1, Segmentation, COUNT(*) 
-FROM `my-customer-segmentation.0001.Customer Details`
+FROM `Customer Details`
 GROUP BY ID, Gender, Ever_Married, Age, Graduated, Profession, Work_Experience, Spending_Score, Family_Size, Var_1, Segmentation
 HAVING COUNT (*) > 1;
 
 
 --FINDING NULLS
 
-SELECT COUNT(*) FROM `my-customer-segmentation.0001.Customer Details` 
+SELECT COUNT(*) FROM `Customer Details` 
 WHERE Gender IS NULL 
 OR Ever_Married IS NULL 
 OR Age IS NULL 
@@ -42,34 +42,34 @@ SUM (CASE WHEN  Spending_Score IS NULL THEN 1 ELSE 0 END) AS null_Spending_Score
 SUM (CASE WHEN  Family_Size IS NULL THEN 1 ELSE 0 END) AS null_Family_Size,
 SUM (CASE WHEN  Var_1 IS NULL THEN 1 ELSE 0 END) AS null_Var_1,
 SUM (CASE WHEN  Segmentation IS NULL THEN 1 ELSE 0 END) AS null_Segmentation
- FROM `my-customer-segmentation.0001.Customer Details`
+ FROM `Customer Details`
 
 
 
 --Replacing null work experince with median value
 
-UPDATE `my-customer-segmentation.0001.Customer Details`
+UPDATE `Customer Details`
 SET Work_Experience = 1
 WHERE Work_Experience IS NULL;
 
 
 --Replacing null Family Size with median value
 
-UPDATE `my-customer-segmentation.0001.Customer Details`
+UPDATE `Customer Details`
 SET Work_Experience = 3
 WHERE Work_Experience IS NULL;
 
 
 --Replacing null Profession with "Unknown"
 
-UPDATE `my-customer-segmentation.0001.Customer Details`
+UPDATE `Customer Details`
 SET Profession = "Unknown"
 WHERE Work_Experience IS NULL;
 
 
 --Dropping null values
 
-DELETE FROM `my-customer-segmentation.0001.Customer Details`
+DELETE FROM `0001.Customer Details`
 WHERE Ever_Married IS NULL
 OR Graduated IS NULL
 OR Var_1 IS NULL ;
