@@ -69,7 +69,7 @@ WHERE Work_Experience IS NULL;
 
 --Dropping null values
 
-DELETE FROM `0001.Customer Details`
+DELETE FROM `Customer Details`
 WHERE Ever_Married IS NULL
 OR Graduated IS NULL
 OR Var_1 IS NULL ;
